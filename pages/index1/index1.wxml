@@ -1,0 +1,4 @@
+<view class= "out">
+    <image class = "img" src="https://www.baidu.com/img/pc_629ee8886a9c20e7f3cb1d2889c3e45d.gif" show-menu-by-longpress = "true" mode="widthFix"></image>
+    <view class="second">111</view>   
+</view>

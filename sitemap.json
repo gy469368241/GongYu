@@ -3,5 +3,7 @@
   "rules": [{
   "action": "allow",
   "page": "*"
-  }]
+  },
+  {"action": "disallow", "page": "pages/index1/index1"}
+]
 }

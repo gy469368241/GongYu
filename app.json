@@ -1,14 +1,37 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index1/index1",
+        "pages/logs/logs",
+        "pages/live-player/live-player",
+        "pages/erweima/erweima"
+        
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "龚宇的小程序",
+        "navigationBarTextStyle": "black",
+        "color": "red"
+    },
+
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/index1/index1",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/live-player/live-player",
+        "text": "次页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+     
+    ]
+    },
+    
+    "entryPagePath": "pages/index1/index1",
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }
